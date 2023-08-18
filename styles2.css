@@ -1,0 +1,72 @@
+header {
+    background-color: #f9c5d1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #ff69b4;
+    margin: 0;
+  }
+  
+  .content {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .button-whatsapp {
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #f9c5d1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .transpare {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    background-color: #fff; /* Cor de fundo para o círculo */
+    border-radius: 50%; /* Tornar a imagem circular */
+    overflow: hidden; /* Garantir que a imagem não ultrapasse os limites do círculo */
+    object-fit: cover; /* Manter proporções e preencher o círculo */
+  }
+  
+  /* Novas personalizações para o Bootstrap */
+  .header-bg {
+    background-color: #f9c5d1;
+  }
+  
+  .footer-bg {
+    background-color: #f9c5d1;
+  }
+  
+  .btn-primary {
+    background-color: #ff69b4;
+    border-color: #ff69b4;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff4381;
+    border-color: #ff4381;
+  }
+  
+  .body 
+  {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/5044561.jpg'); /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }

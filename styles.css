@@ -1,0 +1,190 @@
+/* Importar as fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Estilos para o header com background */
+.header {
+  background-color: rgba(249, 197, 209, 0.5); /* Fundo mais transparente */
+  background-image: url('/img/5044561.jpg'); /* Substitua pelo caminho da sua imagem de fundo */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #fff; /* Borda branca na parte inferior do cabeçalho */
+}
+
+.header h1 {
+  color: #ff69b4; /* Cor rosa */
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; /* Fonte Montserrat */
+  font-weight: 600; /* Peso da fonte */
+  font-size: 36px; /* Tamanho da fonte */
+}
+
+.header p.lead {
+  color: #fff; /* Texto em branco */
+  font-family: 'Open Sans', sans-serif; /* Fonte Open Sans */
+  font-weight: 400; /* Peso da fonte */
+  font-size: 18px; /* Tamanho da fonte */
+  margin: 10px 0;
+}
+
+/* Estilos para o conteúdo */
+.content {
+  padding: 40px;
+  text-align: center;
+}
+
+/* Estilos para o botão do WhatsApp */
+.button-whatsapp {
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilos para o footer com background */
+.footer {
+  background-color: rgba(249, 197, 209, 0.3); /* Fundo mais transparente */
+  background-image: url('/img/5044561.jpg'); /* Substitua pelo caminho da sua imagem de fundo */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para imagens */
+.transpare {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  height: 150px;
+  background-color: #fff; /* Cor de fundo para o círculo */
+  border-radius: 50%; /* Tornar a imagem circular */
+  overflow: hidden; /* Garantir que a imagem não ultrapasse os limites do círculo */
+  object-fit: cover; /* Manter proporções e preencher o círculo */
+}
+
+/* Novas personalizações para o Bootstrap */
+.header-bg {
+  background-color: rgba(249, 197, 209, 0.3); /* Fundo mais transparente */
+}
+
+.footer-bg {
+  background-color: rgba(249, 197, 209, 0.3); /* Fundo mais transparente */
+}
+
+.btn-primary {
+  background-color: #ff69b4;
+  border-color: #ff69b4;
+}
+
+.btn-primary:hover {
+  background-color: #ff4381;
+  border-color: #ff4381;
+}
+
+/* Estilos para o corpo do documento */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('/img/5044561.jpg'); /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Estilos para a seção "Atendimento Psicológico Online" */
+.attendance-section {
+  background-color: rgba(249, 197, 209, 0.5); /* Fundo mais transparente */
+  background-image: url('/img/5044561.jpg'); /* Substitua pelo caminho da sua imagem de fundo */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 40px;
+  text-align: center;
+}
+/* Estilos para o conteúdo da seção "Atendimento Psicológico Online" */
+.attendance-content {
+  margin: 0 auto;
+  max-width: 800px;
+}
+/* Estilos para o botão de contato */
+.attendance-button {
+  margin-top: 20px;
+}
+
+/* Estilos para o footer com background */
+.footer {
+  background-color: rgba(249, 197, 209, 0.5); /* Fundo mais transparente */
+  background-image: url('/img/5044561.jpg'); /* Substitua pelo caminho da sua imagem de fundo */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para cada seção */
+.container.mt-5 {
+  padding: 40px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif; /* Fonte padrão para o conteúdo das seções */
+  background-color: rgba(249, 197, 209, 0.6); /* Fundo mais transparente */
+  border-radius: 10px; /* Borda arredondada */
+  overflow: hidden; /* Oculta a borda nas imagens */
+}
+
+/* Estilos para as imagens das seções */
+.container.mt-5 img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para a animação de zoom */
+.zoom-image {
+  transition: transform 0.3s; /* Transição suave de 0.3 segundos */
+}
+
+.zoom-image:hover {
+  transform: scale(1.1); /* Aumenta em 10% o tamanho da imagem ao passar o mouse */
+}
+
+/* Estilos para os títulos das seções */
+.container.mt-5 h2 {
+  font-family: 'Montserrat', sans-serif; /* Fonte Montserrat para os títulos */
+  font-size: 24px;
+  color: #ff69b4; /* Cor rosa */
+  margin-top: 20px;
+}
+
+/* Estilos para o conteúdo das seções */
+.container.mt-5 p {
+  font-size: 16px;
+  color: #333; /* Cor do texto */
+  margin-top: 10px;
+}
+
+/* Estilos para os textos das sessões de 1 a 3 */
+.container.mt-5 .row {
+  display: flex;
+  align-items: center;
+}
+
+.container.mt-5 .col-md-6 {
+  border-right: 2px solid #fff; /* Borda branca à direita */
+  padding-right: 20px; /* Espaço à direita para a borda */
+}
+
+/* Estilos para as imagens das sessões 1, 2 e 3 */
+.container.mt-5 .col-md-6 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Bordas levemente arredondadas */
+}
